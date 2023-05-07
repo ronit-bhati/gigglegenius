@@ -9,7 +9,6 @@ let jkSetup = document.getElementById('setup');
 let jkDelivery = document.getElementById('delivery');
 
 const showJoke = (jokeArr) => {
-    console.log(jokeArr['jokeContent'])
     if (jokeArr['setup']) {
         jkSetup.innerText = jokeArr['setup'];
     } else if (jokeArr['jokeContent']){
