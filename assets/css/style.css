@@ -1,0 +1,75 @@
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+nav{
+    height: 8vh;
+}
+
+.forHeight {
+    min-height: 84vh;
+}
+
+.bg-beige {
+    background: beige;
+}
+
+.jkTxt {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.jokeCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.masterCont{
+    margin: 2vh auto;
+}
+
+.colContainer {
+    display: flex;
+}
+
+.pad-4 {
+    padding: 1.5rem;
+}
+
+.mar-4 {
+    margin: 1.5rem;
+}
+
+@media (max-width: 992px) {
+    .colContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: small;
+    }
+
+    .pad-4 {
+        padding: 0.5rem;
+    }
+
+    .mar-4 {
+        margin: 0.5rem;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 6vh;
+    font-weight: 500;
+    font-size: 1rem;
+}
